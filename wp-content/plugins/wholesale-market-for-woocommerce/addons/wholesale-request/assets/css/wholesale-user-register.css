@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+#primary #select_role_package > label {
+ display: inline-block;
+ width: 120px;
+}
+#primary  .ced_cwsm_request_role .woocommerce-FormRow #reg_role1,#primary  #select_role_package > select{
+	width: 50%;
+}
+.ced_wm_wholesale_request.button ,.ced_wm_wholesale_request1.button {
+ margin-top: 20px;
+}

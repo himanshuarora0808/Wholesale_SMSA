@@ -1,0 +1,65 @@
+div#ced_cwsm_mail_success,
+div#ced_cwsm_mail_failure,
+div#ced_cwsm_mail_empty
+{
+	display: none;
+}
+
+.ced_cwsm_suggestion_wrapper #ced_cwsm_send_loading
+{
+	display: none;
+}
+
+.ced_cwsm_suggestion_wrapper {
+	box-shadow: 2px 1px 5px 0 #ccc;
+	margin: 10px 0;
+	padding: 15px;
+	background-color: #ffffff;
+}
+.ced_cwsm_suggestion_wrapper label {
+	display: inline-block;
+	max-width: 18%;
+	vertical-align: top;
+	width: 100%;
+	font-weight: bold;
+}
+.ced_cwsm_suggestion_wrapper input,
+.ced_cwsm_suggestion_wrapper textarea
+{
+	width:100%;
+	max-width: 80%
+}
+
+#ced_cwsm_mail_failure.updated,
+#ced_cwsm_mail_empty.updated {
+	border-left-color: #ED5565;
+}
+
+.ced_cwsm_suggestion_wrapper .button-primary {
+	display: inline-block;
+	vertical-align: middle;
+}
+#ced_cwsm_send_loading{
+	display: inline-block;
+	margin: 0 10px;
+	max-width: 3%;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.ced_cwsm_mail_msg p {
+	background-color: #008ec2;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 768px){
+	.ced_cwsm_suggestion_wrapper label,
+	.ced_cwsm_suggestion_wrapper input,
+	.ced_cwsm_suggestion_wrapper textarea
+	{
+		max-width: 100%
+	}
+}

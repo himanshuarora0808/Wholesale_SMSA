@@ -1,0 +1,8 @@
+.cwsm_sorry_msg {
+	color: red;
+	font-weight: bold;
+	margin-left: 5px;
+}
+textarea#ced_cwsm_default_wm_price_txt.cwsm_sorry_msg_red {
+	border: 1px solid red;
+}

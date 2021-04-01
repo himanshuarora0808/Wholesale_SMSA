@@ -1,0 +1,128 @@
+.cwsm_custom_msg_error::before {
+	color: #b81c23;
+	content: "";
+}
+.cwsm_custom_msg_error::before {
+	content: "";
+	display: inline-block;
+	font-family: WooCommerce;
+	left: 1.5em;
+	position: absolute;
+	top: 0em;
+}
+.cwsm_custom_msg_error::after{
+	content: " ";
+	display: table;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+.cwsm_custom_msg_error::after{
+	content: " ";
+	display: table;
+}
+.cwsm_custom_msg_error::after{
+	clear: both;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+.cwsm_custom_msg_error{
+	border-top-color: #b81c23;
+}
+.cwsm_custom_msg_error{
+	color: #515151;
+	list-style: outside none none !important;
+	padding: 0em 2em 0em 3.5em !important;
+	position: relative;
+	width: auto;
+	word-wrap: break-word;
+}
+/** **/
+.cwsm_custom_msg::before {
+	color: #8fae1b;
+	 content: "";
+}
+.cwsm_custom_msg::before {
+	 content: "";
+	display: inline-block;
+	font-family: WooCommerce;
+	left: 1.5em;
+	position: absolute;
+	top: 0em;
+}
+ .cwsm_custom_msg::after{
+	content: " ";
+	display: table;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+.woocommerce .cwsm_custom_msg::after{
+	content: " ";
+	display: table;
+}
+.woocommerce .cwsm_custom_msg::after{
+	clear: both;
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+.woocommerce .cwsm_custom_msg{
+	border-top-color: #b81c23;
+}
+.woocommerce .cwsm_custom_msg{
+	color: #515151;
+	list-style: outside none none !important;
+	padding: 0em 2em 0em 3.5em !important;
+	position: relative;
+	width: auto;
+	word-wrap: break-word;
+}
+.custom-msg-wrapper {
+	background-color: #f7f6f7;
+	border-top: 4px solid #e040fb;
+	box-shadow: 0 2px 10px #ccc;
+	margin-bottom: 30px;
+	padding:20px 0px;
+	position:relative;
+}
+.cwsm_cross_div img {
+	height: 20px;
+	width: 20px;
+}
+.cwsm_cross_div {
+	background-color: #ddd;
+	border-radius: 100%;
+	height: 30px;
+	margin-top: 2px;
+	position: absolute;
+	right: -15px;
+	text-align: center;
+	top: -20px;
+	width: 30px;
+	cursor:pointer;
+}
+.wholesale-error::before {
+	color: #b81c23;
+	 content: "";
+}
+.ced_cwsm_price .amount{
+	display: inline-block;
+}
+.cwsm_cross_div {
+	line-height: 32px;
+}
+.cwsm_cross_div > img {
+  display: inline-block;
+  height: 15px;
+  margin: 0 auto;
+  width: 15px;
+}
+.cwsm_cross_div {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  width: 27px;
+  height: 27px;
+}

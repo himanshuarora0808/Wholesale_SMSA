@@ -1,0 +1,4 @@
+*** Wholesale Market for WooCommerce  ***
+
+2020-10-30 - version 1.0.0
+* Inital release

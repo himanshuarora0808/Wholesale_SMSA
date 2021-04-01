@@ -1,0 +1,123 @@
+.ced_cwsm_fields_wrapper .ced_cwsm_fields_wrapper_header {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 15px 0 0;
+	padding: 0;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+
+.ced_cwsm_fields_wrapper h3 {
+	border-bottom: 1px solid #ddd;
+	font-weight: normal;
+	padding: 10px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+.ced_cwsm_fields_wrapper h4.ced_cwsm_range_wise_pricing_heading {
+	background-color: #aaa;
+	color: #fff;
+	cursor: pointer;
+	margin: 0;
+	padding: 8px 10px;
+	text-transform: uppercase;
+}
+
+.ced_cwsm_range_wise_pricing_heading > span {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	height: 18px;
+	line-height: 16px;
+	text-align: center;
+	width: 18px;
+}
+
+.ced_cwsm_container_section span.button.ced_cwsm_add_range_row {
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.ced_cwsm_container_section .form-field.ced_cwsm_enable_range_wise_pricing_paltimum_user_field {
+	display: inline-block;
+	padding: 5px !important;
+	vertical-align: top;
+	width: 80%;
+}
+h3.ced_cwsm_fields_wrapper_header {
+	background-color: transparent;
+	border: 0px;
+}
+.ced_cwsm_user_section_div {
+	border: 1px solid #eee !important;
+	margin: 0 auto 14px;
+	width: 98%;
+	padding: 10px 0px;
+}
+.ced_cwsm_container_section > p label {
+	float: none;
+	margin: 0;
+	width: auto;
+}
+.ced_cwsm_range_wise_pricing_wrapper_div {
+	margin: 0 auto;
+	width: 98%;
+}
+.ced_cwsm_container_section > p {
+	display: inline-block;
+	width: 84%;
+}
+.ced_cwsm_range_wise_pricing_content_div {
+	border: 1px solid #eee;
+	padding: 7px;
+}
+.ced_cwsm_range_wise_pricing_wrapper_div h4.ced_cwsm_range_wise_pricing_heading span {
+	margin-right: 8px;
+}
+.options_group.ced_cwsm_fields_wrapper label {
+	display: inline-block;
+	margin-right: 15px;
+}
+.options_group.ced_cwsm_fields_wrapper p.form-field input {
+	display: inline-block;
+	vertical-align: top;
+	width: 55%;
+}
+
+input#ced_cwsm_enable_as_wholesale_exclusive,
+input#ced_cwsm_hide_wholesale_exclusive_from_shop {
+	width: auto;
+}
+
+input#ced_cwsm_enable_as_wholesale_exclusive_gold,
+input#ced_cwsm_hide_wholesale_exclusive_from_shop_gold {
+	width: auto;
+}
+
+input#ced_cwsm_enable_as_wholesale_exclusive_silver_member,
+input#ced_cwsm_hide_wholesale_exclusive_from_shop_silver_member {
+	width: auto;
+}
+
+.variable_pricing.ced_cwsm_variable_pricing.wc-metabox.ced_cwsm_user_section_div p label {
+	margin-left: 6px;
+}
+.ced_cwsm_range_wise_pricing_content_div table tr td input {
+	min-width: auto !important;
+}
+
+/*To customize Woo products listing table to
+show wholesale price on product listing Page*/
+
+table.wp-list-table .column-name {
+	width: 20%;
+}
+
+table.wp-list-table .column-is_in_stock{
+	width: 7ch;
+}
+
+table.wp-list-table .column-product_cat, table.wp-list-table .column-product_tag {
+	width: 8%!important;
+}
